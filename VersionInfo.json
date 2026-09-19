@@ -1,4 +1,8 @@
 [
+	{
+    "Revision": "1.0.30",
+    "Changes": "* Updated MessagePack, Fixed Setting Page being too tall, and added GSCC, CSC, and CSCC to CPP Syntax\r\n"
+  },
   {
     "Revision": "1.0.7",
     "Changes": "* Testing Version Update for GitHub Deploy\r\n"

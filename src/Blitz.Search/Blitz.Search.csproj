@@ -21,7 +21,8 @@
         <PackageReference Include="DiffPlex" Version="1.7.2" />
         <PackageReference Include="Humanizer" Version="3.0.0-beta.13" />
         <PackageReference Include="Humanizer.Core" Version="3.0.0-beta.13" />
-        <None Include="..\..\readme.md" Pack="true" PackagePath="\"/>
+        <PackageReference Include="MessagePack" Version="2.5.301" />
+        <None Include="..\..\readme.md" Pack="true" PackagePath="\" />
 
     </ItemGroup>
 

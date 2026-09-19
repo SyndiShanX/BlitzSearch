@@ -6,7 +6,7 @@
         x:Class="Blitz.Avalonia.Controls.Views.PreferenceWindow"
         xmlns:models="clr-namespace:Blitz.Avalonia.Controls.Views"
         Width="910"
-        Height="1000"
+        Height="775"
         xmlns:vm="using:Blitz.Avalonia.Controls.ViewModels"
         x:DataType="vm:MainWindowViewModel"
         Title="Options">

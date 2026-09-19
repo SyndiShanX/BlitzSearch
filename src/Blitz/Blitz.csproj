@@ -30,12 +30,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <AvaloniaResource Include="Assets\**"/>
+        <AvaloniaResource Include="Assets\**" />
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="11.3.2" />
         <PackageReference Include="Avalonia.ReactiveUI" Version="11.3.2" />
+        <PackageReference Include="MessagePack" Version="2.5.301" />
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
         <PackageReference Include="ReactiveUI" Version="20.1.63" />
         <PackageReference Include="ReactiveUI.XamForms" Version="19.6.12" />
@@ -80,7 +81,7 @@
       <Content Update="Documentation\Support_Blitz_Search.md">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-        <None Include="..\..\readme.md" Pack="true" PackagePath="\"/>
+        <None Include="..\..\readme.md" Pack="true" PackagePath="\" />
         <None Remove="Documentation\Support_Blitz.md" />
         <Content Include="Documentation\Support_Blitz.md">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

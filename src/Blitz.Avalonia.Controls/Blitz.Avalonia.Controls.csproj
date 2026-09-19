@@ -32,6 +32,7 @@
         <PackageReference Include="Humanizer" Version="3.0.0-beta.13" />
         <PackageReference Include="Humanizer.Core" Version="3.0.0-beta.13" />
         <PackageReference Include="Markdown.Avalonia" Version="11.0.3-a1" />
+        <PackageReference Include="MessagePack" Version="2.5.301" />
         <PackageReference Include="ReactiveUI" Version="20.1.1" />
         <PackageReference Include="TextMateSharp" Version="1.0.69" />
     </ItemGroup>

@@ -1,4 +1,6 @@
 # Change Log
+### Version 1.0.30
+* Updated MessagePack, Fixed Setting Page being too tall, and added GSCC, CSC, and CSCC to CPP Syntax
 ### Version 1.0.28
 * Removing Discord
 ### Version 1.0.27

@@ -17,7 +17,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <AvaloniaResource Include="Assets\**"/>
+        <AvaloniaResource Include="Assets\**" />
     </ItemGroup>
 
 
@@ -33,6 +33,7 @@
         <PackageReference Include="AvaloniaEdit.TextMate" Version="11.3.0" />
         <PackageReference Include="Material.Icons" Version="2.1.10" />
         <PackageReference Include="Material.Icons.Avalonia" Version="2.1.10" />
+        <PackageReference Include="MessagePack" Version="2.5.301" />
         <PackageReference Include="System.Text.Json" Version="8.0.5" />
     </ItemGroup>
 
@@ -46,7 +47,7 @@
         <DependentUpon>BlitzFileView.axaml</DependentUpon>
         <SubType>Code</SubType>
       </Compile>
-        <None Include="..\..\readme.md" Pack="true" PackagePath="\"/>
+        <None Include="..\..\readme.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 
